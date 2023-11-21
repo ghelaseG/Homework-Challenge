@@ -1,1 +1,3 @@
-# Pseudocode
+# Pseudocode 
+
+# functions
