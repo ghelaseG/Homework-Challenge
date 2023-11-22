@@ -13,12 +13,14 @@ def reverseArr(array):
     end = array_length - 1
 
 # Use a while loop to iterate until start is less than end.
+# Swap the elements at indices start and end.
+# Move start index towards the end of the array and end index towards the start of the array.
 
     while start < end:
-        array[start], array[end] = array[end], array[start] # swap the elements at indices start and end.
-# Move start index towards the end of the array and end index towards the start of the array.        
+        array[start], array[end] = array[end], array[start]       
         start += 1
         end -= 1
+
     return array
 
 # Example:
