@@ -6,7 +6,7 @@ class ListNode:
 
 # Function to reverse a linked list
 def reverse_linked_list(head):
-# Initialize two pointers: prev (previous) and current
+# Initialise two pointers: previous and current
     prev, current = None, head
 
 # Traverse the linked list
@@ -17,7 +17,7 @@ def reverse_linked_list(head):
 # The head of the reversed list is the last node
     return prev
 
-# Example Usage:
+# Example:
 # Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
 head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
 

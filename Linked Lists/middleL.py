@@ -1,5 +1,5 @@
 # Pseudocode
-
+# Delete middle of linked list.
 
 # Employ two pointers: slow and fast.
 
